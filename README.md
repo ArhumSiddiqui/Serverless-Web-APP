@@ -90,8 +90,8 @@ Set up an API Gateway to provide endpoints for interacting with the application.
 
 API lambda code: 
 
-```json
-
+```
+json
 # This code is a bit ...messy and includes some workarounds
 # It functions fine, but needs some cleanup
 # Checked the DecimalEncoder and Checks workarounds 20200402 and no progression towards fix
@@ -143,7 +143,6 @@ class DecimalEncoder(json.JSONEncoder):
         if isinstance(obj, decimal.Decimal):
             return int(obj)
         return super(DecimalEncoder, self).default(obj)
-
 ```
 
 ### Step 5: Implement the Static Frontend and Test Functionality
