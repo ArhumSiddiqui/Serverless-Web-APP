@@ -1,6 +1,6 @@
 # Serverless-Web-APP
 
-This project is a serverless reminder application built using AWS services, including Lambda, Step Functions, API Gateway, Simple Email Service (SES), and a static frontend. The application is designed to automate email reminders and provide users with real-time interactions via an API and frontend interface. This is based off of Adrian’s serverless web app tutorial.
+This project is a serverless reminder application built using AWS services, including Lambda, Step Functions, API Gateway, Simple Email Service (SES), and a static frontend. The application is designed to automate email reminders and provide users with real-time interactions via an API and a frontend interface.
 
 ## Features
 
